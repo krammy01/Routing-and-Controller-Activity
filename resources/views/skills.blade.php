@@ -4,9 +4,9 @@
     <title>Skills</title>
 </head>
 <body>
-    <h1>{{ $data }}</h1>
-    <a href="{{ route('about-me') }}"><button>About Me</button></a>
-    <a href="{{ route('skills') }}"><button>Skills</button></a>
-    <a href="{{ route('hobbies') }}"><button>Hobbies</button></a>
+    <h1>Skills</h1>
+    <p>Playing Guitar</p>
+    <p>Matulog ng Alas 3 ng Umaga.</p>
+    <p>Have time management Skills</p>
 </body>
 </html>

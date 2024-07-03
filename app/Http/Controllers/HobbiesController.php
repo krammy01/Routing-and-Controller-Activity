@@ -6,9 +6,8 @@ use Illuminate\Http\Request;
 
 class HobbiesController extends Controller
 {
-    public function index()
+    public function hobbies()
     {
-        $data = 'These are my hobbies.';
-        return view('hobbies', compact('data'));
+        return view('hobbies');
     }
 }
